@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:8080/api/students";
+const API_URL = "/api/students";
 
 async function fetchStudents() {
   const res = await fetch(API_URL);
@@ -84,3 +84,4 @@ function clearForm() {
 }
 
 window.onload = fetchStudents;
+
